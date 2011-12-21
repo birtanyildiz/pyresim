@@ -1,0 +1,7 @@
+Basit bir toplu resim boyutlandırma aracı.
+Pardus Kurumsal 2 de geliştirilen uygulama Imagemagick kullanıyor. 
+
+Bağımlılıkları: 
+imagemagick
+pygtk
+gtk
