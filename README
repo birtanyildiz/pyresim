@@ -5,3 +5,8 @@ Bağımlılıkları:
 imagemagick
 pygtk
 gtk
+
+Glade ile tasarımını yapıp python2 ile yaptığım bu dandirik sistemi kendim için yazdım :)
+os.system(command) şahanesi ile işleri kolaylaştırmak için yapılmıştır.
+
+wuhahaa bu da program mı demeyin hareketin kralını yaparım. :D
