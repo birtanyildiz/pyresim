@@ -13,7 +13,11 @@ try:
     import gtk.glade
 except:
     sys.exit(1)
+
+
 #resim klası
+#git denemesi
+
 class Resim:
     def __init__(self):
         self.gladefile = "tasarim.glade"
