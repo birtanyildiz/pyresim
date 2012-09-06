@@ -13,7 +13,7 @@ try:
     import gtk.glade
 except:
     sys.exit(1)
-
+#resim klası
 class Resim:
     def __init__(self):
         self.gladefile = "tasarim.glade"
