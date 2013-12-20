@@ -3,6 +3,8 @@
 
 import sys
 import os
+
+
 try:
     import pygtk
     pygtk.require("2.0")
