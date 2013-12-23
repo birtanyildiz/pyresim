@@ -8,8 +8,3 @@ gtk
 
 Glade ile tasarımını yapıp python2 ile yaptığım bu dandirik sistemi kendim için yazdım :)
 os.system(command) şahanesi ile işleri kolaylaştırmak için yapılmıştır.
-
-wuhahaa bu da program mı demeyin hareketin kralını yaparım. :D
-
-Ha bir de neden pythonun kendi image sınıfını kullanmadım? Bu daha kolay 
-geldi yarın başka bişey kolay gelir onu da yaparız.
