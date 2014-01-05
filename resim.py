@@ -17,8 +17,8 @@ except:
     sys.exit(1)
 
 
-#resim klası
 class Resim:
+    '''Resim Boyutlandırma Sınıfıdır'''
     def __init__(self):
         self.gladefile = "tasarim.glade"
         self.wTree = gtk.glade.XML(self.gladefile)
@@ -40,13 +40,11 @@ class Resim:
         unlem = ""
         if resimeni != "" and resimboyu != "":
             unlem = "!"
-
-        os.system(
-            'mogrify -resize ' + resimeni + 'x' + resimboyu + unlem +
-            ' ' + dizinadi + '*.jpg')
-        os.system(
-            'find ' + dizinadi +
-            ' -name \'*.jpg \' | xargs mogrify -strip')
+        uzantilar = ('*.jpg','*.png','*.bmp','*.JPG','*.PNG','*.jpeg','*.JPEG')
+        for a in uzantilar:    
+            os.system(
+                'mogrify -resize ' + resimeni + 'x' + resimboyu + unlem +
+                ' ' + dizinadi + a)
         self.label4.set_text("Tüm Resimler Boyutlandırıldı")
 
 
