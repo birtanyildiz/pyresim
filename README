@@ -1,5 +1,7 @@
-Basit bir toplu jpg boyutlandırma aracı.
+Basit bir toplu resim boyutlandırma aracı.
 Pardus Kurumsal 2 de geliştirilen uygulama Imagemagick kullanıyor. 
+
+Dönüştürülebilen resim türleri: jpg,jpeg,png,bmp
 
 Bağımlılıkları: 
 imagemagick
